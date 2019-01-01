@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54016972216E85FE00D5BF8B /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54016971216E85FE00D5BF8B /* CameraVC.swift */; };
+		54016974216EA87100D5BF8B /* PhotoPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54016973216EA87100D5BF8B /* PhotoPreviewVC.swift */; };
 		54323B4B2160276300A948FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54323B4A2160276300A948FC /* AppDelegate.swift */; };
 		54323B4D2160276300A948FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54323B4C2160276300A948FC /* ViewController.swift */; };
 		54323B502160276300A948FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54323B4E2160276300A948FC /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54016971216E85FE00D5BF8B /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		54016973216EA87100D5BF8B /* PhotoPreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewVC.swift; sourceTree = "<group>"; };
 		54323B472160276300A948FC /* Boothe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boothe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54323B4A2160276300A948FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54323B4C2160276300A948FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				54323B512160276800A948FC /* Assets.xcassets */,
 				54323B532160276800A948FC /* LaunchScreen.storyboard */,
 				54323B562160276800A948FC /* Info.plist */,
+				54016971216E85FE00D5BF8B /* CameraVC.swift */,
+				54016973216EA87100D5BF8B /* PhotoPreviewVC.swift */,
 			);
 			path = Boothe;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54016974216EA87100D5BF8B /* PhotoPreviewVC.swift in Sources */,
 				54323B4D2160276300A948FC /* ViewController.swift in Sources */,
+				54016972216E85FE00D5BF8B /* CameraVC.swift in Sources */,
 				54323B4B2160276300A948FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
